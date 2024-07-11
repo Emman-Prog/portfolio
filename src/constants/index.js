@@ -29,6 +29,7 @@ export const PROJECTS = [
   {
     title: "Todo List App",
     image: todoApp,
+    link: "https://todo-app-ebon-ten.vercel.app/",
     description:
       "A fully functional Todo List App using react, you can create a todo, update, replace, and delete like CRUD.",
     technologies: ["HTML", "CSS", "React", "React Hook", "Tailwind"],
