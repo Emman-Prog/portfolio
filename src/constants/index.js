@@ -27,7 +27,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Todo List App",
     image: todoApp,
     description:
       "A fully functional Todo List App using react, you can create a todo, update, replace, and delete like CRUD.",
