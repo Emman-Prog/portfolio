@@ -1,8 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import todoApp from '../assets/projects/todo-project.jpg';
+import weatherApp from '../assets/projects/weather-project.jpg';
+import movieApp from '../assets/projects/movie-project.jpg';
+
 
 export const HERO_CONTENT = `I'm eager to join a software development team where I can apply my programming skills, tackle new challenges, and grow in a supportive environment. With experience in Web Development, I've honed my problem-solving abilities and collaboration skills through projects and internships. I'm enthusiastic about contributing to innovation and the success of the company.`;
 
@@ -31,8 +30,24 @@ export const PROJECTS = [
     image: todoApp,
     link: "https://todo-app-ebon-ten.vercel.app/",
     description:
-      "A fully functional Todo List App using react, you can create a todo, update, replace, and delete like CRUD.",
+      "A fully functional Todo List App using react, you can create a todo, update, replace, and delete in this app.",
     technologies: ["HTML", "CSS", "React", "React Hook", "Tailwind"],
+  },
+  {
+    title: "Weather App",
+    image: weatherApp,
+    link: "https://weather-app-indol-gamma.vercel.app/",
+    description:
+      "Weather App is the application of science and technology to predict the conditions of the atmosphere for a given location and time.",
+    technologies: ["HTML", "CSS", "React", "Fetch API", "Tailwind"],
+  },
+  {
+    title: "Movie App",
+    image: movieApp,
+    link: "https://movie-app-kappa-ten-81.vercel.app/",
+    description:
+      "In this App, we have made a movie app in React which contains 4 pages made from different APIs but have a common UI. The four pages that our app has are the Trending Page, the Movies Page, the TV Series Page, and the Custom Search Page.",
+    technologies: ["HTML", "CSS", "Bootstrap", "React", "React Hook", "Custom Hook", "Fetch API"],
   },
 ];
 
